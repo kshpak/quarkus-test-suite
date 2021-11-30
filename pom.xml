@@ -45,6 +45,7 @@
         <exclude.operator.openshift.tests>**/Operator*OpenShift*IT.java</exclude.operator.openshift.tests>
         <exclude.quarkus.cli.tests>**/QuarkusCli*IT.java</exclude.quarkus.cli.tests>
         <exclude.quarkus.devmode.tests>no</exclude.quarkus.devmode.tests>
+        <chage.cache.prop>new-hash-delete-cache-on-build-and-validate</chage.cache.prop>
     </properties>
     <dependencyManagement>
         <dependencies>
